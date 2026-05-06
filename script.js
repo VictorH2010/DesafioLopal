@@ -1,16 +1,9 @@
-let numero = "";
+let i = 1; 
+let soma = 0;
 
-//let serve para declarar variável 
-// numero serve para receber o valor do "i"
+while (i <= 10){ 
+    soma = soma + i;
+    alert(soma) 
+    i = i + 1; 
 
-for (let i = 10; i >= 1; i = i - 1) {
-
-//let i serve para dar valor para a variável "numero"
-
-    numero = `${numero} ${i}`;
-
-}
-
-alert(numero);
-
-//alert serve para mostrar a mensagem na tela
+} 
