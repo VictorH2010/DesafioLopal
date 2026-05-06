@@ -5,6 +5,6 @@ while (escolha != 3) {
     escolha = prompt("Menu\n1-Inserir produto.\n2-Listar produtos.\n3-Sair");
     if (escolha == 3) {
         // "==" serve para atribuir valor para uma variável
-        alert("Sistema encerrando.")
+        alert("Sistema encerrano.")
     }
 }
