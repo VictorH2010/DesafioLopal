@@ -1,10 +1,8 @@
-let mensagem = "";
-let numero;
-do {
-    numero = Number(prompt("Insira o número desejado para que seja feita a tabuada"));
-} while (isNaN(numero))
-for (let i = 1; i <= 10; i ++) {
-    mensagem = `${mensagem}${i} vezes ${numero} é igual a ${numero * i}
-`;
-    alert(mensagem);
+let escolha;
+
+while (escolha != 3) {
+    escolha = prompt("Menu\n1-Inserir produto.\n2-Listar produtos.\n3-Sair");
+    if (escolha == 3) {
+        alert("Sistema encerrando.")
+    }
 }
